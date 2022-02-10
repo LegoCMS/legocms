@@ -4,6 +4,7 @@ set -e
 set -x
 
 CURRENT_BRANCH="1.x"
+#CURRENT_BRANCH="main"
 
 function split()
 {
@@ -18,6 +19,6 @@ function remote()
 
 git pull origin $CURRENT_BRANCH
 
-remote admin-panel git@github.com:legocms/admin-panel.git
+#remote admin-panel git@github.com:legocms/admin-panel.git
 
-split 'packages/LaravelCMS/AdminPanel' admin-panel
+split 'packages/LegoCMS/AdminPanel' admin-panel
