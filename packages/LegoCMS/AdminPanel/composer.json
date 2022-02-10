@@ -1,0 +1,30 @@
+{
+    "name": "legocms/admin-panel",
+    "description": "The LegoCMS Admin Panel package.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Basant Besra",
+            "email": "besrabasant@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "LegoCMS\\AdminPanel\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LegoCMS\\AdminPanel\\Providers\\AdminPanelServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
