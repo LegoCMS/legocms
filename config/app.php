@@ -167,6 +167,7 @@ return [
         /*
          * Package Service Providers...
          */
+        LegoCMS\AdminPanel\Providers\AdminPanelServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -178,7 +179,6 @@ return [
         App\Providers\RouteServiceProvider::class,
         App\Providers\FortifyServiceProvider::class,
         App\Providers\JetstreamServiceProvider::class,
-
     ],
 
     /*
